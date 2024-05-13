@@ -1,0 +1,10 @@
+[Unit]
+Description=Touchpad service for GXTP5100
+After=graphical-session-pre.target
+
+[Service]
+ExecStart=/usr/bin/touchserver
+RestartSec=5
+
+[Install]
+WantedBy=graphical-session-pre.target

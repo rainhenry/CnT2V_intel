@@ -1,0 +1,1 @@
+KERNEL=="event*", MODE="0660", GROUP="intel"
